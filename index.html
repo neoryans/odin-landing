@@ -1,55 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>REG | Landing Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REG | Landing Page</title>
 
-        <!-- custom css -->
-        <link rel="stylesheet" href="./assets/styles/style.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
 
-        <!-- poppins font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <!-- navbar -->
-        <section id="navbar">
-            <div class="navbar__logo">
-                <h3>REG</h3>
-            </div>
-            <ul class="navbar__link">
-                <li><a href="#">Pictures</a></li>
-                <li><a href="#">Quotes</a></li>
-                <li><a href="#">Get in touch</a></li>
-            </ul>
-        </section>
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <section id="navbar">
+      <div class="navbar__logo">
+        <h3>REG</h3>
+      </div>
+      <ul class="navbar__link">
+        <li><a href="#">Pictures</a></li>
+        <li><a href="#">Quotes</a></li>
+        <li><a href="#">Get in touch</a></li>
+      </ul>
+    </section>
 
-        <!-- hero -->
-        <section id="hero">
-            <div class="hero__left">
-                <div class="hero__title">
-                    <h1>I am REG in <br>“made in abysse”</h1>
-                </div>
-                <div class="hero__text">
-                    A robotic being who appears to be a little boy My actual
-                    age, origins, and even name are unknown because I cannot
-                    recall anything about my life.
-                </div>
-                <div class="hero__button">
-                    <a href="#">Know more</a>
-                </div>
-            </div>
-            <div class="hero__right">
-                <div class="hero__img">
-                    <img src="./assets/images/hero__img.png" alt="hero__img" >
-                </div>
-            </div>
-        </section>
-    </body>
+    <!-- hero -->
+    <section id="hero">
+      <div class="hero__left">
+        <div class="hero__title">
+          <h1>I am REG in <br />“made in abysse”</h1>
+        </div>
+        <div class="hero__text">
+          A robotic being who appears to be a little boy My actual age, origins,
+          and even name are unknown because I cannot recall anything about my
+          life.
+        </div>
+        <div class="hero__button">
+          <a href="#">Know more</a>
+        </div>
+      </div>
+      <div class="hero__right">
+        <div class="hero__img">
+          <img src="./assets/images/hero__img.png" alt="hero__img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- pictures of me -->
+    <section id="pictures">
+      <h3>Pictures of me</h3>
+      <div class="pictures__items">
+        <div class="pictures__items-1">
+          <img src="./assets/images/pictures__1.png" />
+          <p>This is a text description of the above photo</p>
+        </div>
+        <div class="pictures__items-1">
+          <img src="./assets/images/pictures__2.png" />
+          <p>This is a text description of the above photo</p>
+        </div>
+        <div class="pictures__items-1">
+          <img src="./assets/images/pictures__3.png" />
+          <p>This is a text description of the above photo</p>
+        </div>
+        <div class="pictures__items-1">
+          <img src="./assets/images/pictures__4.png" />
+          <p>This is a text description of the above photo</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quotes -->
+    <section id="quotes">
+      <div class="quotes__content">
+        <svg
+          class="quotes__icon"
+          width="80"
+          height="62"
+          viewBox="0 0 80 62"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.2">
+            <path
+              d="M18.1739 25.5333C17.2987 25.5333 16.4588 25.6668 15.6228 25.7884C15.8936 24.8779 16.1723 23.9517 16.6197 23.1196C17.0671 21.9108 17.7657 20.8629 18.4604 19.8071C19.0413 18.665 20.0656 17.8918 20.8192 16.9146C21.6081 15.9648 22.6835 15.3329 23.5351 14.544C24.3711 13.7198 25.4661 13.3077 26.3374 12.7268C27.248 12.2048 28.0408 11.6279 28.8885 11.3532L31.004 10.4819L32.8643 9.7087L30.9608 2.10251L28.6177 2.66767C27.8681 2.85606 26.9536 3.07585 25.9135 3.33881C24.8499 3.53505 23.7157 4.07274 22.4519 4.56333C21.2038 5.12065 19.7595 5.49743 18.4172 6.39227C17.0671 7.24787 15.509 7.96218 14.1353 9.10821C12.8048 10.2896 11.1996 11.3139 10.0143 12.8171C8.71916 14.2222 7.43969 15.6979 6.44672 17.3777C5.29677 18.979 4.51574 20.7373 3.69154 22.4759C2.94583 24.2146 2.34535 25.9925 1.85475 27.7194C0.924582 31.1811 0.508557 34.47 0.347642 37.2841C0.2142 40.1021 0.292695 42.4451 0.457535 44.1406C0.516407 44.9413 0.626301 45.7184 0.704796 46.2561L0.802914 46.9154L0.904958 46.8919C1.60302 50.1527 3.20999 53.1493 5.53996 55.5349C7.86993 57.9206 10.8277 59.5979 14.0711 60.3728C17.3145 61.1476 20.7111 60.9884 23.8678 59.9136C27.0245 58.8387 29.8124 56.8922 31.909 54.299C34.0057 51.7059 35.3253 48.5722 35.7153 45.2604C36.1053 41.9485 35.5498 38.594 34.1129 35.5847C32.676 32.5755 30.4166 30.0345 27.5959 28.2557C24.7752 26.477 21.5086 25.5331 18.1739 25.5333ZM61.3463 25.5333C60.4711 25.5333 59.6312 25.6668 58.7952 25.7884C59.066 24.8779 59.3447 23.9517 59.7921 23.1196C60.2395 21.9108 60.9381 20.8629 61.6328 19.8071C62.2137 18.665 63.238 17.8918 63.9916 16.9146C64.7805 15.9648 65.8558 15.3329 66.7075 14.544C67.5435 13.7198 68.6385 13.3077 69.5098 12.7268C70.4203 12.2048 71.2131 11.6279 72.0609 11.3532L74.1763 10.4819L76.0367 9.7087L74.1332 2.10251L71.7901 2.66767C71.0405 2.85606 70.126 3.07585 69.0859 3.33881C68.0223 3.53505 66.8881 4.07274 65.6243 4.56333C64.3801 5.12457 62.9319 5.49743 61.5896 6.3962C60.2395 7.2518 58.6814 7.9661 57.3077 9.11213C55.9772 10.2935 54.372 11.3179 53.1867 12.8171C51.8915 14.2222 50.6121 15.6979 49.6191 17.3777C48.4691 18.979 47.6881 20.7373 46.8639 22.4759C46.1182 24.2146 45.5177 25.9925 45.0271 27.7194C44.097 31.1811 43.6809 34.47 43.52 37.2841C43.3866 40.1021 43.4651 42.4451 43.6299 44.1406C43.6888 44.9413 43.7987 45.7184 43.8772 46.2561L43.9753 46.9154L44.0773 46.8919C44.7754 50.1527 46.3824 53.1493 48.7123 55.5349C51.0423 57.9206 54.0001 59.5979 57.2435 60.3728C60.4869 61.1476 63.8834 60.9884 67.0402 59.9136C70.1969 58.8387 72.9848 56.8922 75.0814 54.299C77.178 51.7059 78.4977 48.5722 78.8877 45.2604C79.2777 41.9485 78.7221 38.594 77.2853 35.5847C75.8484 32.5755 73.589 30.0345 70.7683 28.2557C67.9476 26.477 64.681 25.5331 61.3463 25.5333Z"
+              fill="#302E3C"
+            />
+          </g>
+        </svg>
+        <p class="quotes__text">
+          “Deep within it, the Abyss creeps into your mind. Eventually, it’ll
+          get your body as well. Unlike the curse from the 6th Layer, those
+          don’t manifest immediately. For every expedition, you’ll stand at the
+          precipice of death and insanity, twisting the skin off your head.”
+        </p>
+        <p class="quotes__author">– Ozen, Made in Abysse</p>
+      </div>
+    </section>
+
+    <!-- call to action -->
+    <section id="callToAction">
+      <div class="callToAction__content">
+        <div class="callToAction__content-left">
+          <h4>The season 2 is now available</h4>
+          <p>You can stream it freely , click the button beside</p>
+        </div>
+        <div class="callToAction__content-right">
+          <a href="#">Stream Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <p>Copyright © 2022 - Neo</p>
+    </section>
+  </body>
 </html>
