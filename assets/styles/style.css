@@ -127,6 +127,7 @@ body {
   display: flex;
   margin: 0 9.4rem;
   padding: 1.9rem 0;
+  gap: 20px;
   justify-content: space-between;
 }
 
